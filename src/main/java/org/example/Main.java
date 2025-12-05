@@ -6,8 +6,12 @@ public class Main {
         return a+b+c;
     }
 
+    public static int substraction(int a, int b, int c){
+        return a - (b+c);
+    }
+
     public static int substraction(int a, int b){
-        return a-b;
+        return substraction(a,b,0);
     }
 
     public static void main(String[] args) {
@@ -15,5 +19,6 @@ public class Main {
         System.out.println("I'm Sofia Rios!!");
         System.out.println("La suma de 2, 3, y 4 es: "+suma(2,3,4));
         System.out.println("La resta de 5 menos 3 es: "+substraction(5,3));
+        System.out.println("La resta de 10 menos 4 y 2 es: "+substraction(10, 4, 2));
     }
 }
