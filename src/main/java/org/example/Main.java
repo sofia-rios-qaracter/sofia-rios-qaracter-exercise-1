@@ -25,12 +25,12 @@ public class Main {
         System.out.println("I'm Sofia Rios!!");
 
         // Print for verifying addition function works correctly
-        System.out.println("La suma de 2, 3, y 4 es: "+addition(2,3,4));
+        System.out.println("The sum between 2, 3, and 4 is: "+addition(2,3,4));
 
         // Print for substraction function with 2 paramenters
-        System.out.println("La resta de 5 menos 3 es: "+substraction(5,3));
+        System.out.println("The substraction between 5 and 3 is: "+substraction(5,3));
 
         // Print for substraction function with 3 paramenters
-        System.out.println("La resta de 10 menos 4 y 2 es: "+substraction(10, 4, 2));
+        System.out.println("The substraction between 10 and (4 plus 2) is: "+substraction(10, 4, 2));
     }
 }
