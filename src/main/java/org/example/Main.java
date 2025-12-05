@@ -34,3 +34,31 @@ public class Main {
         System.out.println("The substraction between 10 and (4 plus 2) is: "+substraction(10, 4, 2));
     }
 }
+
+/*
+Print of git pretty
+
+* 5379dbf (HEAD -> master, origin/master) Changed language of prints
+* b6f36bb Added comments to main
+*   61117ed Merge branch 'feature/subtraction'
+|\
+* \   71003e8 Merge branch 'feature/subtraction'
+|\ \
+* \ \   3ce576d Merge branch 'feature/addition' into master
+|\ \ \
+| | | | * 97673c3 (origin/feature/subtraction, feature/subtraction) Merge feature substraction with their origin
+| | | |/|
+| | | | * e308be9 Added some changes on main.java
+| | | * | 626217e feat: Added third parameter to substraction
+| | |/ /
+| | * / cd4f6ec Added substraction function to main
+| | |/
+| | * a8d235b Merge branch 'feature/addition' into master
+| |/|
+|/|/
+| * bf8b924 (origin/feature/addition, feature/addition) Added some changes on main.java
+|/
+* 0654ace Added some changes on main.java
+* dbc7988 Project initialized
+
+*/
